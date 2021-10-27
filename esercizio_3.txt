@@ -1,0 +1,12 @@
+Fornisci una o più query SQL che creino una tabella capace di ospitare i dati anagrafici di un utente.
+
+CREATE TABLE Students (
+    Id int NOT NULL AUTO_INCREMENT,
+    Name varchar(255) NOT NULL,
+    Surname varchar(255) NOT NULL,
+    Username varchar(255) NOT NULL UNIQUE,
+    Age int NOT NULL,
+    Gender char(10)
+    Address varchar(255) NOT NULL,
+    City varchar(255) NOT NULL
+);
